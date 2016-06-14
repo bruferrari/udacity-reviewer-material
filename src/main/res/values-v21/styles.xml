@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/deep_orange_600</item>
+        <item name="colorPrimaryDark">@color/deep_orange_800</item>
+        <item name="colorAccent">@color/lt_blue_a700</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.Bacon.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Bacon.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Bacon.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
